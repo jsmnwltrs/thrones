@@ -1,4 +1,5 @@
-import {printToDom} from "../helpers/util.js"
+import {printToDom} from "../helpers/util.js";
+import {detailsBuilder} from "./details.js";
 
 const characters = [
     {id: "character1",
@@ -22,7 +23,7 @@ const characters = [
 const characterClick = (e) => {
     const characterId = e.target.closest('.character-card').id;
     const currentCharacter = characters.find(x => x.id === characterId)
-    console.log (currentCharacter)
+    detailsBuilder(currentCharacter);
 }
 
 const createEvents = () => {
@@ -41,7 +42,6 @@ const charactersBuilder = () => {
                 <img class="card-img-top" src="${character.imageUrl}" alt="${character.name}">
                     <div class="card-body">
                         <h5 class="card-title">${character.name}</h5>
-                        <h6 class="card-title">House: ${character.house}</h6>
                     </div>
             </div>
         </div>`;
