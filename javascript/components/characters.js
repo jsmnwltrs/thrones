@@ -18,9 +18,16 @@ const characters = [
 const charactersBuilder = () => {
     let domString = "";
     characters.forEach((character) => {
-        domString += `<h3>${character.name}</h3>
-        <h4>House: ${character.house}</h4>
-        <img src=${character.imageUrl}>`
+        domString += 
+        `<div class="col-2 character">
+            <div class="card">
+                <img class="card-img-top" src="${character.imageUrl}" alt="${character.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${character.name}</h5>
+                        <h6 class="card-title">${character.house}</h6>
+                    </div>
+            </div>
+        </div>`;
     });
     printToDom(domString);
 }
