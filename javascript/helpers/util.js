@@ -1,6 +1,6 @@
-const printToDom = (divId, stringToPrint) => {
-    const element = document.getElementById(divId);
-    element.innerHTML = stringToPrint
+const printToDom = (stringToPrint) => {
+    const element = document.getElementById("characters");
+    element.innerHTML = stringToPrint;
 }
 
-export {printToDom}
+export {printToDom};
