@@ -1,25 +1,6 @@
 import {printToDom} from "../helpers/util.js";
 import {detailsBuilder} from "./details.js";
 
-const characters = [
-    {id: "character1",
-    name: "John Snow",
-    house: "Stark",
-    imageUrl: "https://pbs.twimg.com/profile_images/901947348699545601/hqRMHITj_400x400.jpg"},
-    {id: "character2",
-    name: "Daenerys Targaryen",
-    house: "Targaryen",
-    imageUrl: "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/Daenerys_Dragonpit.jpg/revision/latest?cb=20171015095128"},
-    {id: "character3",
-    name: "Tyrion Lannister",
-    house: "Lannister",
-    imageUrl:"https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/Tyrion_main_s7_e6.jpg/revision/latest?cb=20170818050344"},
-    {id: "character4",
-    name: "Arya Stark",
-    house: "Stark",
-    imageUrl:"https://vignette.wikia.nocookie.net/gameofthrones/images/5/54/Arya_the_dragon_and_the_wolf_s7.jpg/revision/latest?cb=20170828062911"}
-]
-
 const characterClick = (e) => {
     const characterId = e.target.closest('.character-card').id;
     const currentCharacter = characters.find(x => x.id === characterId)
