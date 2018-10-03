@@ -1,6 +1,12 @@
 import {printToDom} from "../helpers/util.js";
 import {detailsBuilder} from "./details.js";
 
+let characters = [];
+
+const setCharacters = (newArray) => {
+    characters = newArray;
+};
+
 const characterClick = (e) => {
     const characterId = e.target.closest('.character-card').id;
     const currentCharacter = characters.find(x => x.id === characterId)
@@ -31,4 +37,4 @@ const charactersBuilder = () => {
     createEvents();
 }
 
-export {charactersBuilder}
+export {charactersBuilder, setCharacters}
