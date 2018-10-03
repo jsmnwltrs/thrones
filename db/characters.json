@@ -1,0 +1,64 @@
+{
+    "characters": [
+        {
+            "id": "character1",
+            "name": "John Snow",
+            "house": "Stark",
+            "imageUrl": "https://pbs.twimg.com/profile_images/901947348699545601/hqRMHITj_400x400.jpg"
+        },
+        {
+            "id": "character2",
+            "name": "Daenerys Targaryen",
+            "house": "Targaryen",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/Daenerys_Dragonpit.jpg/revision/latest?cb=20171015095128"
+        },
+        {
+            "id": "character3",
+            "name": "Tyrion Lannister",
+            "house": "Lannister",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/Tyrion_main_s7_e6.jpg/revision/latest?cb=20170818050344"
+        },
+        {
+            "id": "character4",
+            "name": "Arya Stark",
+            "house": "Stark",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/5/54/Arya_the_dragon_and_the_wolf_s7.jpg/revision/latest?cb=20170828062911"
+        },
+        {
+            "id": "character5",
+            "name": "Khal Drogo",
+            "house": "Drogo",
+            "imageUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Khal_Drogo-Jason_Momoa.jpg/220px-Khal_Drogo-Jason_Momoa.jpg"
+        },
+        {
+            "id": "character6",
+            "name": "Cersei Lannister",
+            "house": "Lannister",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/c/c3/Profile-CerseiLannister.png/revision/latest/scale-to-width-down/323?cb=20170828071355"
+        },
+        {
+            "id": "character7",
+            "name": "Gregor Clegane",
+            "house": "Clegane",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/6/66/Gregor_Clegane_ian_infobox.jpg/revision/latest?cb=20170903035143"
+        },
+        {
+            "id": "character8",
+            "name": "Joffrey Baratheon",
+            "house": "Baratheon",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gaeofthrones/images/2/25/Joffrey_Season_4_Episode_2_TLATR.jpg/revision/latest?cb=20171105180252"
+        },
+        {
+            "id": "character9",
+            "name": "Petyr Baelish",
+            "house": "Baelish",
+            "imageUrl":"https://vignette.wikia.nocookie.net/gameofthrones/images/9/9f/Profile-Littlefinger.png/revision/latest?cb=20170826005231"
+        },
+        {
+            "id": "character10",
+            "name": "Eddard Stark",
+            "house": "Stark",
+            "imageUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Ned_Stark-Sean_Bean.jpg/220px-Ned_Stark-Sean_Bean.jpg"
+        }
+    ]
+}
