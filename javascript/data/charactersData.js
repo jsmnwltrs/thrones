@@ -1,10 +1,10 @@
-import {setCharacters, charactersBuilder} from "../components/characters.js"
+import {setCharacters, charactersBuilder, getCharacterz} from "../components/characters.js"
 
 function executeThisCodeAfterFileLoaded () {
     // console.log("request", this.responseText);  //arrow functions change what 'this' means. It is the request itself. We need to use this function format.
     const data = JSON.parse(this.responseText);    // Takes a JSON string and makes it an object
     setCharacters(data.characters);                  // gets the array
-    charactersBuilder();
+    charactersBuilder(getCharacterz());
 };
 
 function executeThisCodeIfXhrFails () {
